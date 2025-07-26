@@ -1,2 +1,24 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+#task 1
+number = int(input("Enter a number: "))
+name = input("Enter a name: ")
+num_array = input("Enter a number array sep with spaces: ")
+
+num_array = [int(num) for num in num_array.split()]
+if number > 7:
+    print("Hello")
+
+if name == "John":
+    print("Hello, John")
+else:
+    print("There is no such name")
+
+for num in num_array:
+    if num % 3 == 0:
+        print(num)
+
+
+#task 2
+No, it is not correct. Every type of opening bracket need to have the
+same type of closing bracket. Correct version: [((())()(()))]
